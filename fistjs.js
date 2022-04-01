@@ -1,6 +1,6 @@
-var operator = prompt('Enter 1 for sum, 2 for Subtract, 3 for mutiply, 4 to divide');
-var firstNumber=Numberprompt('Enter the first number');
-var secondNumber=Numberprompt('Enter the second number');
+var operator = prompt("Enter 1 for sum, 2 for Subtract, 3 for mutiply, 4 to divide");
+var firstNumber=Number(prompt("Enter the first number"));
+var secondNumber=Number(prompt("Enter the second number"));
 if(operator===1){
     var sum= firstNumber+secondNumber;
     alert(sum)
