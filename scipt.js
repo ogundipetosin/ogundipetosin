@@ -30,5 +30,5 @@ else if (operator==="4"){
     alert(division(a,b));
 }
 else{
-    alert("Invalid Number Selected");
+    alert("Invalid Operator Selected");
 }
